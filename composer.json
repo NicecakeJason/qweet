@@ -1,0 +1,24 @@
+{
+   "name": "sun/sun-apartament",
+   "description": "Плагин для управления апартаментами и бронированиями",
+   "type": "wordpress-plugin",
+   "license": "GPL-2.0-or-later",
+   "authors": [
+       {
+           "name": "Ваше имя",
+           "email": "ваш@email.com"
+       }
+   ],
+   "minimum-stability": "stable",
+   "require": {
+       "php": ">=7.4"
+   },
+   "autoload": {
+       "psr-4": {
+           "Sun\\Apartament\\": "src/"
+       }
+   },
+   "require-dev": {
+       "phpunit/phpunit": "^9.0"
+   }
+}
